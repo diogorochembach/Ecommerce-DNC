@@ -3,14 +3,9 @@ import "./index.scss";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-  return (
-    <div>
-      <h1>Home</h1>
-      <button>
-        <Link to={`/products/1`}>Produto</Link>
-      </button>
-    </div>
-  );
+  console.log("Home");
+
+  return <div className="home"></div>;
 };
 
 export default Home;
